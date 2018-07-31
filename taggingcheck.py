@@ -4,10 +4,10 @@ import logging
 #setup simple logging for INFO
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
-Topic_Arn = 'arn:aws:sns:us-east-1:135148293054:UntaggedInstanceShutdown'
+Topic_Arn = 'sns topic'
 #define the connection
 ec2 = boto3.resource('ec2')
-account = "Digital-NonProd"
+account = " my acc"
 #define filters
     # Use the filter() method of the instances collection to retrieve
     # all running EC2 instances.
