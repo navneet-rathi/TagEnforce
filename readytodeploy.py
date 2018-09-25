@@ -7,8 +7,8 @@ logger.setLevel(logging.INFO)
 value_null=[]
 Key_null=[]
 
-Topic_Arn = 'arn:aws:sns:us-east-1:029921894534:AutoShutdown'
-account = "AWS-WUBS-Core-NonProd"
+Topic_Arn = 'Topic_Arn'
+account = "My account"
 #define the connection
 ec2 = boto3.resource('ec2')
 s = ""
